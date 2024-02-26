@@ -1,0 +1,48 @@
+div {
+    background-color: #FFC0CB; /* Rosa claro como fondo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #FF69B4; /* Rosa caliente como color de título */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #FFB6C1; /* Rosa claro como fondo del botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF1493; /* Rosa profundo al pasar el ratón */
+}
+
+/* Estilos para el select */
+select {
+    background-color: #DB7093; /* Pálido violeta como fondo del select */
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Estilos para el texto de las frases */
+ul li {
+    color: #C71585; /* Medio violeta como color de texto */
+    font-size: 16px;
+    margin-bottom: 5px;
+}
