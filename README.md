@@ -4,12 +4,12 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/VictorC0des/quiz-certification-azle
+  git clone https://github.com/22030678/Frases_icp
 ```
 
 Go to the project director
 ```
-  cd quiz-certification-azle
+  cd Frases_icp
 ```
 
 Install dependencies
