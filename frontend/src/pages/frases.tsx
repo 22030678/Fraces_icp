@@ -25,7 +25,9 @@ async function obtenerFrases() {
 function obtenerFrase(frases: string[]){
     const randomIndex = Math.floor(Math.random() * frases.length);
 
+    console.log(frases[randomIndex])
     return frases[randomIndex];
+    
 }
 
     useEffect(() => {
@@ -39,7 +41,6 @@ function obtenerFrase(frases: string[]){
     return (
         <div>
             <h1>Frases App</h1>
-            <AuthButton />
             <select value={categoria} onChange={e => setCategoria(e.target.value)}>
                 <option value="amor">Amor</option>
                 <option value="motivacional">Motivacional</option>
